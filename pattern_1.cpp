@@ -139,14 +139,34 @@ int main()
     //  * * * *
     // * * * * *
     // 7
+    // for (int row = 1; row <= num; row++)
+    // {
+    //     for (int col = 1; col <= num - row; col++)
+    //     {
+    //         cout << " ";
+    //     }
+
+    //     for (int col = 1; col <= row; col++)
+    //     {
+    //         cout << "* ";
+    //     }
+
+    //     cout << endl;
+    // }
+
+    //  * * * * *
+    //   * * * *
+    //    * * *
+    //     * *
+    //      *
+    // 8
     for (int row = 1; row <= num; row++)
     {
-        for (int col = 1; col <= num - row; col++)
+        for (int col = 1; col <= row; col++)
         {
             cout << " ";
         }
-
-        for (int col = 1; col <= row; col++)
+        for (int col = 1; col <= num - row + 1; col++)
         {
             cout << "* ";
         }
