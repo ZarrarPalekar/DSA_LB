@@ -117,6 +117,8 @@ int main()
         cout << endl;
     }
 
+    // test commit
+
     for (int row = 1; row <= num - 1; row++)
     {
         for (int col = 1; col <= row; col++)
