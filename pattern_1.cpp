@@ -102,6 +102,43 @@ int main()
     //    * *
     //     *
     // 6
+    // for (int row = 1; row <= num; row++)
+    // {
+    //     for (int col = 1; col <= num - row; col++)
+    //     {
+    //         cout << " ";
+    //     }
+
+    //     for (int col = 1; col <= row; col++)
+    //     {
+    //         cout << "* ";
+    //     }
+
+    //     cout << endl;
+    // }
+
+    // // test commit
+
+    // for (int row = 1; row <= num - 1; row++)
+    // {
+    //     for (int col = 1; col <= row; col++)
+    //     {
+    //         cout << " ";
+    //     }
+    //     for (int col = 1; col <= num - row; col++)
+    //     {
+    //         cout << "* ";
+    //     }
+
+    //     cout << endl;
+    // }
+
+    //     *
+    //    * *
+    //   * * *
+    //  * * * *
+    // * * * * *
+    // 7
     for (int row = 1; row <= num; row++)
     {
         for (int col = 1; col <= num - row; col++)
@@ -110,22 +147,6 @@ int main()
         }
 
         for (int col = 1; col <= row; col++)
-        {
-            cout << "* ";
-        }
-
-        cout << endl;
-    }
-
-    // test commit
-
-    for (int row = 1; row <= num - 1; row++)
-    {
-        for (int col = 1; col <= row; col++)
-        {
-            cout << " ";
-        }
-        for (int col = 1; col <= num - row; col++)
         {
             cout << "* ";
         }
