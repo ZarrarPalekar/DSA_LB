@@ -175,31 +175,31 @@ int main()
     // }
 
     // 9 hollow pyramid (not working)
-    // for (int row = 1; row <= num; row++)
-    // {
-    //     for (int col = 1; col <= num; col++)
-    //     {
-    //         if (row == num)
-    //         {
-    //             cout << "* ";
-    //         }
-    //     }
-    //     for (int col = 1; col <= num; col++)
-    //     {
+    for (int row = 1; row <= num; row++)
+    {
+        for (int col = 1; col <= num; col++)
+        {
+            if (row == num)
+            {
+                cout << "* ";
+            }
+        }
+        for (int col = 1; col <= num; col++)
+        {
 
-    //         if (row == 1)
-    //         {
-    //             cout << "    *    ";
-    //             break;
-    //         }
-    //     }
-    //     cout << endl;
-    //     for (int col = 1; col <= num + 4; col++)
-    //     {
+            if (row == 1)
+            {
+                cout << "    *    ";
+                break;
+            }
+        }
+        cout << endl;
+        for (int col = 1; col <= num + 4; col++)
+        {
 
-    //         cout << " *";
-    //     }
+            cout << " *";
+        }
 
-    //     cout << endl;
-    // }
+        cout << endl;
+    }
 }
