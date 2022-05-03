@@ -174,7 +174,7 @@ int main()
     //     cout << endl;
     // }
 
-    // 9 hollow pyramid (n ot working)
+    // 9 hollow pyramid (not working)
     for (int row = 1; row <= num; row++)
     {
         for (int col = 1; col <= num; col++)
