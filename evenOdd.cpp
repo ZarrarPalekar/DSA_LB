@@ -8,6 +8,8 @@ string isEvenOrOdd(int num)
 
 int main()
 {
-    int n = 5;
-    cout << isEvenOrOdd(n) << endl;
+    cout << "Enter a number: ";
+    int num;
+    cin >> num;
+    cout << isEvenOrOdd(num) << endl;
 }
